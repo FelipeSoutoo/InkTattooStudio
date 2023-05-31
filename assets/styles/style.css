@@ -86,5 +86,16 @@ button:hover{
     font-size: 30px;
 }
 
+section{
+    display: flex;
+    height: 200px;  
+}
+
+.section-sobre{
+    padding: 20px;
+    width: 33.3%;
+}
+
+
 
 
