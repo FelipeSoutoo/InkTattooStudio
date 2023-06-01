@@ -26,7 +26,7 @@ nav{
 }
 
 .img-logo{
-    height:250px;
+    height: 250px;
 }
 
 
@@ -94,6 +94,200 @@ section{
 .section-sobre{
     padding: 20px;
     width: 33.3%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.card1 { 
+    width: 300px;
+    height: 500px;
+    background-color: #303030;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.textmain1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc1 {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+
+.btn1 {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500px;
+    
+
+    
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.card2 { 
+    width: 300px;
+    height: 500px;
+    background-color: #303030;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.textmain2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc2 {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.btn2 {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500px;
+    
+
+    
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.card3 { 
+    width: 300px;
+    height: 500px;
+    background-color: #303030;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.textmain3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc3 {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.btn3 {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500px;
+    
+
+    
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.card4 { 
+    width: 300px;
+    height: 500px;
+    background-color: #303030;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.textmain4 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc4 {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn4 {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500px;
+    
+
+    
+}
+
+.button4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sectionx {
+    display: flex;
+    width: 300px;
+    margin: 10px;
+    gap: 12px;
+    
 }
 
 
