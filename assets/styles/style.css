@@ -290,6 +290,26 @@ section{
     
 }
 
+.tatuagem1 {
+    width: 190px;
+    height: 254px;
+    background: rgb(255, 0, 0);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000042;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    margin-right: 150px;
 
+}
+
+.tatuagem1:hover{
+    border: #000000 0.2em solid;
+
+}
+
+.salatatuagem1{
+    margin: 25px 50px 75px;
+    display: flex;
+}
 
 
