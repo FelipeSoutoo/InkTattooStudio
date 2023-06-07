@@ -90,7 +90,7 @@ button:hover{
 .sobre{
     display:flex;
     width: 100%;
-    padding: 6rem 15rem;
+    padding: 3rem 3rem;
     justify-content: space-between;
     gap: 2rem;
 }
@@ -109,6 +109,8 @@ button:hover{
     display:flex;
     flex-direction: column;
     height: 100vh;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -128,12 +130,12 @@ button:hover{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 350px;
-    height: 500px;
+    width: 280px;
+    height: 470px;
     padding: 1rem 1rem;
     background-color: #303030;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 45px;
 }
 
 .img{
@@ -168,8 +170,8 @@ button:hover{
     height: 100vh;
     width: 100%;
     align-items: center;
-    padding-top: 6rem;
-    gap: 6rem;
+    padding-top: 3rem;
+    gap: 1rem;
     border-bottom: 0.05rem solid grey;
 }
 
@@ -183,7 +185,7 @@ button:hover{
 }
 
 .tatuagens img {
-    width: 400px;
+    width: 250px;
     height: 250px;
     background: rgb(255, 0, 0);
     border-radius: 0.4em;
