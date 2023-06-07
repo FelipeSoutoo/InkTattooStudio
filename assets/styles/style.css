@@ -5,12 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/*header *{
-    border: 1px solid red;
-}
-*/
-
-header{
+.container-firstView{
     height: 100vh;
     width: 100%;
     background: linear-gradient(90deg, rgba(69,69,78,1) 0%, rgba(158,158,158,1) 1%, rgba(69,69,78,1) 100%);
@@ -22,7 +17,7 @@ nav{
     justify-content: space-between;
     padding-top: 0px;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 13%;
 }
 
 .img-logo{
@@ -71,7 +66,6 @@ button:hover{
 .container-logo{
     display:flex;
     justify-content: center;
-  
     margin-top: 130px;
     font-size: 60px;
 }
@@ -86,230 +80,119 @@ button:hover{
     font-size: 30px;
 }
 
-section{
+.container-secondView{
     display: flex;
-    height: 200px;  
+    height: 80vh;
+    width: 100%;
+    border-bottom: 0.05rem solid grey;
 }
 
-.section-sobre{
-    padding: 20px;
-    width: 33.3%;
+.sobre{
+    display:flex;
+    width: 100%;
+    padding: 6rem 15rem;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
-.container1 {
+.sobre-h{
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sobre-p{
+    width: 30%;
+}
+
+.container-thirdView{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-bottom: 0.05rem solid grey;
+}
+
+.cardsection{
     display: flex;
     justify-content: center;
-
-
+    align-items: center;
+    gap: 3rem;
 }
 
-
-
-.card1 { 
-    width: 300px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 350px;
     height: 500px;
+    padding: 1rem 1rem;
     background-color: #303030;
     border-radius: 15px;
     margin-top: 100px;
-
 }
-.textmain1 {
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.textmain {
     text-align: center;
     color: #fff;
     font-weight: 600;
     font-size: 25px;
 }
 
-.desc1 {
-    color: #fff;
-    font-weight: 200;
-    text-align: center;
-    font-size: 16px;
-    
-
-}
-
-.btn1 {
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 500px;
-    
-
-    
-}
-
-.button1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.container2 {
-    display: flex;
-    justify-content: center;
-
-
-}
-
-
-
-.card2 { 
-    width: 300px;
-    height: 500px;
-    background-color: #303030;
-    border-radius: 15px;
-    margin-top: 100px;
-
-}
-.textmain2 {
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.desc2 {
-    color: #fff;
-    font-weight: 200;
-    text-align: center;
-    font-size: 16px;
-
-}
-
-.btn2 {
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 500px;
-    
-
-    
-}
-
-.button2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.container3 {
-    display: flex;
-    justify-content: center;
-
-
-}
-
-
-
-.card3 { 
-    width: 300px;
-    height: 500px;
-    background-color: #303030;
-    border-radius: 15px;
-    margin-top: 100px;
-
-}
-.textmain3 {
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.desc3 {
-    color: #fff;
-    font-weight: 200;
-    text-align: center;
-    font-size: 16px;
-
-}
-
-.btn3 {
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 500px;
-    
-
-    
-}
-
-.button3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.container4 {
-    display: flex;
-    justify-content: center;
-
-
-}
-
-
-
-.card4 { 
-    width: 300px;
-    height: 500px;
-    background-color: #303030;
-    border-radius: 15px;
-    margin-top: 100px;
-
-}
-.textmain4 {
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.desc4 {
+.desc {
     color: #fff;
     font-weight: 200;
     text-align: center;
     font-size: 16px;
 }
 
-.btn4 {
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 500px;
-    
-
-    
+.btn-card{
+    color:black;
+    background-color: white;
 }
 
-.button4 {
+.container-fourthView{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    padding-top: 6rem;
+    gap: 6rem;
+    border-bottom: 0.05rem solid grey;
+}
+
+.tatuagens{
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    align-items: center;
 }
 
-.sectionx {
-    display: flex;
-    width: 300px;
-    margin: 10px;
-    gap: 12px;
-    
-}
-
-.tatuagem1 {
-    width: 190px;
-    height: 254px;
+.tatuagens img {
+    width: 400px;
+    height: 250px;
     background: rgb(255, 0, 0);
     border-radius: 0.4em;
     box-shadow: 0.3em 0.3em 0.7em #00000042;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: rgb(250, 250, 250) 0.2em solid;
-    margin-right: 150px;
-
 }
 
-.tatuagem1:hover{
+.tatuagens img:hover{
     border: #000000 0.2em solid;
-
+    cursor: pointer;
 }
-
-.salatatuagem1{
-    margin: 25px 50px 75px;
-    display: flex;
-}
-
-
