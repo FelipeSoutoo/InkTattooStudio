@@ -133,10 +133,26 @@ button:hover{
     width: 280px;
     height: 470px;
     padding: 1rem 1rem;
-    background-color: #303030;
+    background: linear-gradient(90deg, rgba(69,69,78,1) 0%, rgba(158,158,158,1) 1%, rgba(69,69,78,1) 100%);
     border-radius: 15px;
     margin-top: 45px;
+    transition: 0.4s, color 0.4s;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+ 
+
 }
+
+.card:hover{
+    background: linear-gradient(90deg, rgb(205, 205, 205) 0%, rgb(214, 214, 214) 1%, rgb(162, 162, 162) 100%);
+    color: black;
+    box-shadow: 5px 5px 10px rgb(130, 130, 130),
+    -5px -5px 10px rgb(67, 67, 67);;
+
+}
+
 
 .img{
     width: 150px;
@@ -147,17 +163,11 @@ button:hover{
 
 .textmain {
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     font-weight: 600;
     font-size: 25px;
 }
 
-.desc {
-    color: #fff;
-    font-weight: 200;
-    text-align: center;
-    font-size: 16px;
-}
 
 .btn-card{
     color:black;
