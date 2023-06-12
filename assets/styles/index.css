@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container-firstView{
     height: 100vh;
     width: 100%;
@@ -47,8 +51,8 @@ nav ul li a:hover{
     transition: .3s;
 }
 
-button{
-    color:white;
+.btn-contato{
+    color:rgb(255, 255, 255);
     border: none;
     background: rgb(0, 0, 0);
     padding: 12px 20px;
@@ -58,9 +62,15 @@ button{
     transition: .4s;
 }
 
-button:hover{
-    background-color: white;
-    color:black;
+.btn-contato a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+.btn-contato:hover{
+    scale: 1.1;
     cursor: pointer;
 }
 

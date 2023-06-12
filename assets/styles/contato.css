@@ -56,9 +56,13 @@ button{
     transition: .4s;
 }
 
+.button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 button:hover{
-    background-color: white;
-    color:black;
+    scale: 1.1;
     cursor: pointer;
 }
 
