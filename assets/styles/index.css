@@ -17,11 +17,11 @@ nav{
     justify-content: space-between;
     padding-top: 0px;
     padding-left: 5%;
-    padding-right: 13%;
+    padding-right: 15%;
 }
 
 .img-logo{
-    height: 250px;
+    height: 200px;
 }
 
 
@@ -59,7 +59,8 @@ button{
 }
 
 button:hover{
-    transform: scale(1.3);
+    background-color: white;
+    color:black;
     cursor: pointer;
 }
 
@@ -153,7 +154,6 @@ button:hover{
 
 }
 
-
 .img{
     width: 150px;
     height: 150px;
@@ -170,7 +170,12 @@ button:hover{
 
 
 .btn-card{
-    color:black;
+    color:white;
+    background-color: black;
+}
+
+.btn-card:hover{
+    color: black;
     background-color: white;
 }
 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Entre em Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="img-logo" src="assets/images/default_transparent_1000x1000.png" alt="logo ink tattoo">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Nosso Trabalho</a></li>
+            </ul>
+        <button class="btn-contato" type="button" href="#">Contato</button>
+        </nav>
+    </header>
+
+    <div class="container-form">
+        <div class="container">
+            <div class="title">Entre em Contato</div>
+            <form action="#" method="get">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nome Completo</span>
+                        <input type="text" placeholder="Digite o seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Sobrenome</span>
+                        <input type="text" placeholder="Digite o seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Informe seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Telefone</span>
+                        <input type="number" placeholder="Informe seu número" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Tipo de Tatuagem</span>
+                        <select id="tatuagem" required>
+                            <option value="Pequena">Pequena</option>
+                            <option value="Média">Média</option>
+                            <option value="Grande">Grande</option>
+                            <option value="ColPeq">Colorida Pequena</option>
+                            <option value="ColMed">Colorina Média</option>
+                            <option value="ColGrand">Colorina Grande</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Tipo do Traço</span>
+                        <select id="traço" required>
+                            <option value="FineL">Fine line</option>
+                            <option value="SculpL">Sculp line</option>
+                            <option value="BoldL">Bold line</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gênero</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Masculino</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Feminino</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefiro não informar</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Artistas</a></li>
+            <li><a href="#">Nosso Trabalho</a></li>
+        </ul>
+        <p class="copyright">
+            InkTattoo Studio @ 2023
+        </p>
+    </footer>
+   
+</body>
+</html>
