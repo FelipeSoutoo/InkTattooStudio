@@ -28,7 +28,6 @@ nav{
     height: 200px;
 }
 
-
 .img-logo:hover{
     cursor: pointer;
 }
@@ -66,8 +65,6 @@ nav ul li a:hover{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
-
 
 .btn-contato:hover{
     scale: 1.1;
@@ -152,16 +149,12 @@ nav ul li a:hover{
     font-weight: 200;
     text-align: center;
     font-size: 16px;
- 
-
 }
 
 .card:hover{
-    background: linear-gradient(90deg, rgb(205, 205, 205) 0%, rgb(214, 214, 214) 1%, rgb(162, 162, 162) 100%);
-    color: black;
-    box-shadow: 5px 5px 10px rgb(130, 130, 130),
-    -5px -5px 10px rgb(67, 67, 67);;
-
+    background: linear-gradient(90deg, rgb(96, 96, 96) 0%, rgb(105,105,105) 1%, rgb(200,200,200) 100%);
+    box-shadow: 5px 5px 10px rgb(96,96,96),
+    -5px -5px 10px rgb(0,0,0);
 }
 
 .img{
@@ -212,7 +205,6 @@ nav ul li a:hover{
 .tatuagens img {
     width: 250px;
     height: 250px;
-    background: rgb(255, 0, 0);
     border-radius: 0.4em;
     box-shadow: 0.3em 0.3em 0.7em #00000042;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);

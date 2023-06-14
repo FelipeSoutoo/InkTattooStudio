@@ -31,24 +31,25 @@
             <form action="obrigado.html" method="get">
                 <div class="user-details">
                     <div class="input-box">
-                        <span class="details">Nome Completo</span>
-                        <input type="text" placeholder="Digite o seu nome" required>
+                        <label class="details">Nome Completo</label>
+                        <input type="text" name="nome" placeholder="Digite o seu nome" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Sobrenome</span>
-                        <input type="text" placeholder="Digite o seu sobrenome" required>
+                        <label class="details">Sobrenome</label>
+                        <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Email</span>
-                        <input type="email" placeholder="Informe seu email" required>
+                        <label class="details">Email</label>
+                        <input type="email" name="e-mail" placeholder="Informe seu email" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Telefone</span>
-                        <input type="number" placeholder="Informe seu número" required>
+                        <label class="details">Telefone</label>
+                        <input type="number" name="fone" placeholder="Informe seu número" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Tipo de Tatuagem</span>
-                        <select id="tatuagem" required>
+                        <label class="details">Tipo de Tatuagem</label>
+                        <select name="tatuagem">
+                            <option value="Nenhuma">Nenhuma</option>
                             <option value="Pequena">Pequena</option>
                             <option value="Média">Média</option>
                             <option value="Grande">Grande</option>
@@ -58,11 +59,31 @@
                         </select>
                     </div>
                     <div class="input-box">
-                        <span class="details">Tipo do Traço</span>
-                        <select id="traço" required>
-                            <option value="FineL">Fine line</option>
-                            <option value="SculpL">Sculp line</option>
-                            <option value="BoldL">Bold line</option>
+                        <label class="details">Tipo do Traço</label>
+                        <select name="traço">
+                            <option value="Nenhum">Nenhum</option>
+                            <option value="Fineline">Fine line</option>
+                            <option value="Sculpline">Sculp line</option>
+                            <option value="Boldline">Bold line</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label class="details">Tipo do Piercing</label>
+                        <select name="piercing">
+                            <option value="Nenhum">Nenhum</option>
+                            <option value="Septo">Septo</option>
+                            <option value="Nariz">Nariz</option>
+                            <option value="Orelha">Orelha</option>
+                            <option value="Umbigo">Umbigo</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label class="details">Material da Jóia</label>
+                        <select name="jóia">
+                            <option value="Nenhum">Nenhum</option>
+                            <option value="Aço">Aço Cirúrgico</option>
+                            <option value="Titânio">Titânio</option>
+                            <option value="Nióbio">Nióbio</option>
                         </select>
                     </div>
                 </div>
@@ -70,7 +91,7 @@
                     <input type="radio" name="gender" id="dot-1">
                     <input type="radio" name="gender" id="dot-2">
                     <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Gênero</span>
+                    <label class="gender-title">Gênero</label>
                     <div class="category">
                         <label for="dot-1">
                             <span class="dot one"></span>
