@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, rgba(69,69,78,1) 0%, rgba(158,158,158,1) 1%, rgba(69,69,78,1) 100%);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.img-logo{
+    height: 200px;
+}
+
+
+.img-logo:hover{
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:white;
+    transition: .3s;
+}
+
+button{
+    color:white;
+    border: none;
+    background: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.content{
+    height: 80vh;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.content img{
+    height: 250px;
+}
+
+footer{
+    font-weight: 400;
+    padding: 40px 0;
+    height: 180px;
+    background: linear-gradient(165deg, rgb(205, 205, 205) 0%, rgb(214, 214, 214) 1%, rgb(162, 162, 162) 100%);
+}
+
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(67, 67, 67);
+}
+
+footer .social a{
+    display:inline-block;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    color: inherit;
+}
+
+footer .social a:hover{
+    color:white;
+    transition: .3s;
+}
+
+footer ul{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer ul li a:hover{
+    color:white;
+    transition: .3s;
+}
+
+footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(94, 91, 91);
+}
